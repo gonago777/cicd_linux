@@ -3,10 +3,10 @@ name: Node CI Workflow
 on:
   pull_request:
     branches:
-      - main # main branch에서 PR할 때마다 이벤트 트리거
+      - master
   push:
     branches:
-      - main # merge 되기 전 테스트 수행
+      - master
 
 defaults:
   run:
