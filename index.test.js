@@ -1,5 +1,5 @@
-const {sum} = require("../index.js");
-const {abs} = require("../index.js");
+const {sum} = require("./index.js");
+const {abs} = require("./index.js");
 
 
 test("adds 1 + 2 to equal 3", () => {
